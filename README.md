@@ -7,6 +7,14 @@ into WolframAlpha via the browser. This allows you to just do this via the termi
 
 I find myself doing this often when I am trying to characterize floating point numbers into concise mathematical expressions. If this is you as well, hopefully this helps you as well!
 
+## Installation
+
+Ideally, create a virtual environment. Then:
+
+```
+pip install requirements.txt
+```
+
 ## Example
 
 ```
