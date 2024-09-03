@@ -1,21 +1,22 @@
 # fetch_wolfram
 
-[![PyPI - Version](https://img.shields.io/pypi/v/fetch-wolfram.svg)](https://pypi.org/project/fetch-wolfram)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fetch-wolfram.svg)](https://pypi.org/project/fetch-wolfram)
+If you have a number and want to have a guess at its possible closed form expressions via CLI.
 
------
+[I'm a lazy lazy man](https://www.youtube.com/watch?v=vjh56rivPTQ). I don't like manually copying and pasting a number
+into WolframAlpha via the browser. This allows you to just do this via the terminal.
 
-## Table of Contents
+I find myself doing this often when I am trying to characterize floating point numbers into concise mathematical expressions. If this is you as well, hopefully this helps you as well!
 
-- [Installation](#installation)
-- [License](#license)
+## Example
 
-## Installation
-
-```console
-pip install fetch-wolfram
+```
+python src/fetch_wolfram/fetch.py 3.14159
 ```
 
-## License
+which yields
 
-`fetch-wolfram` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+```
+π≈3.1415926535
+sqrt(6 ζ(2))≈3.1415926535
+π^2/31^(1/3)≈3.14180466
+```
